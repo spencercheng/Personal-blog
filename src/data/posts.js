@@ -1,4 +1,6 @@
-export const posts = [
+// src/data/posts.js
+
+export const samplePosts = [
   {
     slug: "designing-a-calm-blog-layout",
     title: "Designing a Calm Blog Layout",
@@ -7,7 +9,8 @@ export const posts = [
     category: "UI/UX",
     tag: "guide",
     tagColor: "var(--brand-2)",
-    excerpt: "Balance whitespace, hierarchy, and rhythm to make longer reads feel effortless. Here’s a practical checklist…",
+    excerpt:
+      "Balance whitespace, hierarchy, and rhythm to make longer reads feel effortless. Here’s a practical checklist…",
     content: `
 ## What's inside this template?
 
@@ -31,7 +34,8 @@ export const posts = [
     category: "Habits",
     tag: "note",
     tagColor: "var(--brand)",
-    excerpt: "Showing up every day compounds creativity. These are the prompts and constraints that helped me stick to it.",
+    excerpt:
+      "Showing up every day compounds creativity. These are the prompts and constraints that helped me stick to it.",
     content: `
 Consistency beats intensity. Start small, keep score, and protect a short daily window for writing.
     `.trim()
@@ -44,7 +48,8 @@ Consistency beats intensity. Start small, keep score, and protect a short daily 
     category: "Writing",
     tag: "opinion",
     tagColor: "#ef4444",
-    excerpt: "Algorithms come and go, but craft endures. Let’s double down on clear thinking, not cheap tricks.",
+    excerpt:
+      "Algorithms come and go, but craft endures. Let’s double down on clear thinking, not cheap tricks.",
     content: `
 Clickbait fades; clarity lasts. Write for your future self and your best readers.
     `.trim()

@@ -38,6 +38,8 @@ export default function Header() {
         <NavLink className="link" to="/">Home</NavLink>
         <NavLink className="link" to="/tags">Tags</NavLink>
         <NavLink className="link" to="/about">About</NavLink>
+        <NavLink className="link" to="/write">Write</NavLink>
+
 
         <div className="spacer" />
 
